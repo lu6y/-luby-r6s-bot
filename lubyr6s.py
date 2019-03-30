@@ -7,9 +7,6 @@ from discord.ext.commands import Bot
 from discord import Game
 import json
 import re
-import urllib
-import urllib.request
-import asyncio
 import os
 
 
