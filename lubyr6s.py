@@ -12,12 +12,13 @@ import urllib.request
 import datetime
 import asyncio
 from urllib.request import urlopen, Request
+import os
 
 
 client = Bot(command_prefix='!')
 
-
-TOKEN = 'NTU5MDk2MjA2Njc2OTgzODEw.XJ-muQ.Zk0r_rOYP7eo2PPQAzEwDlvYvSg'
+access_token = os.environ["bot_token"]
+TOKEN = 'access_token'
 now = datetime.datetime.now()
 
 
