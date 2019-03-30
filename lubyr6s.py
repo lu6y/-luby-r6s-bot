@@ -9,9 +9,7 @@ import json
 import re
 import urllib
 import urllib.request
-import datetime
 import asyncio
-from urllib.request import urlopen, Request
 import os
 
 
